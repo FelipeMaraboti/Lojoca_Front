@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+@import "tailwindcss";
+
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.bg-header {
+  background-image: url("/background_header.svg");
+  background-position: center;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+.bg-dashboard {
+  background-image: url("/dashboard.svg");
+  background-position: left;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+
+.rock-salt {
+  font-family: "Rock Salt";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}

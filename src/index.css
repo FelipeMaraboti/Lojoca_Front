@@ -9,14 +9,43 @@
   width: auto;
 }
 
-.bg-header {
-  background-image: url("/background_header.svg");
+.bg-section1 {
+  background-image: url("/background_section1.svg");
   background-position: center;
   background-size: cover;
   background-reapeat: non-repeat;
 }
+
+.bg-section3 {
+  background-image: url("/background_section3.svg");
+  background-position: center;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+
+.bg-section4 {
+  background-image: url("/background_section4.svg");
+  background-position: center;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+
 .bg-dashboard {
   background-image: url("/dashboard.svg");
+  background-position: left;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+
+.bg-card1 {
+  background-image: url("/card1.svg");
+  background-position: left;
+  background-size: cover;
+  background-reapeat: non-repeat;
+}
+
+.bg-card2 {
+  background-image: url("/card2.png");
   background-position: left;
   background-size: cover;
   background-reapeat: non-repeat;
@@ -25,6 +54,13 @@
 .rock-salt {
   font-family: "Rock Salt";
   font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-thin{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -46,5 +82,12 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }
